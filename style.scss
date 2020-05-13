@@ -1,0 +1,51 @@
+/*Colors*/
+
+$car-color: #d42613;
+$window: #fff;
+$wheels: #000;
+$mask: #a0b094;
+
+.main{
+    width: 800px;
+    height: 800px;
+    background-color: #a0b094;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.car{
+    background-color: $car-color;
+}
+
+#front{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 48% 52% / 18% 50% 50% 82%;
+    position: absolute;
+    left: 60%;
+    top: 35%;
+}
+
+#back{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50% 50% 48% 52% / 63% 65% 35% 37%;
+}
+
+.mask{
+    background-color: $mask;
+}
+
+#bottom-mask{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 55%;
+    left: 25%;
+}
